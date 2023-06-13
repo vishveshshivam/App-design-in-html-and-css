@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e9e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  top: 10px;
+  position: relative;
+  width: 350px;
+  height: 700px;
+  background-color: #000000;
+  border-radius: 40px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+#top {
+  border-radius: 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #faf8f6;
+  height: 475px;
+  padding: 0;
+  margin: 0;
+}
+#content {
+  position: absolute;
+  top: 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.hr1 {
+  border-bottom: 1px solid #d8d6d6;
+  margin-right: 10%;
+}
+.hr2 {
+  border-bottom: 1px solid #d8d6d6;
+  margin-top: 3px;
+  margin-right: 5%;
+}
+.nav-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.nav-items {
+  display: flex;
+}
+#one {
+  background-image: url("./img/one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 175px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 20%;
+}
+#two {
+  background-image: url("./img/two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 175px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 20%;
+}
+#three {
+  background-color: #161616;
+  height: 170px;
+  border-radius: 20px;
+  padding: 10px;
+}
+#heading1 {
+  font-size: 23px;
+}
+.faded {
+  color: #929292;
+  font-size: 0.8rem;
+}
+.heading {
+  color: #d1dcda;
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+#one a {
+  display: block;
+  text-decoration: none;
+  color: #9fa25e;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+.f-size {
+  font-size: 0.7em;
+}
